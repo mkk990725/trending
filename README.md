@@ -1,8 +1,10 @@
 # GitHub 趋势微信推送
 
-每天北京时间 16:00 获取 [GitHub Trending](https://github.com/trending) 的每周榜、每月榜前三名，通过 Server酱推送到微信。
+每天北京时间 16:00 获取 [GitHub Trending](https://github.com/trending) 的每周榜、每月榜前三名，通过 GitHub Models 生成简短中文说明，再由 Server酱推送到微信。
 
 脚本会保存本次两个榜单的项目。下一次运行时，任何已出现在前一次周榜或月榜前三名中的项目都不会再次推送；没有新入选项目时不发送消息。
+
+中文总结使用工作流自动生成的临时 `GITHUB_TOKEN`，不需要配置额外的 AI API Key。模型暂时不可用时会自动使用 GitHub 原始项目简介，推送任务不会因此中断。
 
 ## 部署
 

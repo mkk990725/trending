@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import Mock
 
 from trending_notifier import (
     Repository,
@@ -6,6 +7,7 @@ from trending_notifier import (
     format_message,
     parse_trending,
     serverchan_endpoint,
+    summarize_in_chinese,
 )
 
 
@@ -59,6 +61,31 @@ class TrendingNotifierTests(unittest.TestCase):
         self.assertIn("每周榜新入选", message)
         self.assertIn("A useful tool", message)
         self.assertNotIn("每月榜", message)
+
+    def test_summarizes_new_repositories_in_chinese_with_one_model_call(self) -> None:
+        repo = Repository("owner/new", "https://github.com/owner/new", "A useful tool")
+        response = Mock()
+        response.json.return_value = {
+            "choices": [
+                {"message": {"content": '{"owner/new":"一个实用的开发工具。"}'}}
+            ]
+        }
+        session = Mock()
+        session.post.return_value = response
+
+        result = summarize_in_chinese(
+            {"weekly": [repo], "monthly": [repo]}, "github-token", session
+        )
+
+        self.assertEqual(result["weekly"][0].description, "一个实用的开发工具。")
+        self.assertEqual(result["monthly"][0].description, "一个实用的开发工具。")
+        session.post.assert_called_once()
+
+    def test_keeps_original_description_without_github_token(self) -> None:
+        repo = Repository("owner/new", "https://github.com/owner/new", "A useful tool")
+        repositories = {"weekly": [repo], "monthly": []}
+
+        self.assertIs(summarize_in_chinese(repositories, None), repositories)
 
     def test_serverchan_endpoint_supports_wechat_and_app_keys(self) -> None:
         self.assertEqual(
