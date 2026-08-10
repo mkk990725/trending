@@ -2,7 +2,7 @@ name: Daily GitHub Trending
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "6 17 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
 

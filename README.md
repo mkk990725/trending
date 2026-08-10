@@ -1,6 +1,6 @@
 # GitHub 趋势微信推送
 
-每天北京时间 16:00 获取 [GitHub Trending](https://github.com/trending) 的每周榜、每月榜前三名，通过 GitHub Models 生成简短中文说明，再由 Server酱推送到微信。
+每天北京时间 17:06 获取 [GitHub Trending](https://github.com/trending) 的每周榜、每月榜前三名，通过 GitHub Models 生成简短中文说明，再由 Server酱推送到微信。
 
 脚本会保存本次两个榜单的项目。下一次运行时，任何已出现在前一次周榜或月榜前三名中的项目都不会再次推送；没有新入选项目时不发送消息。
 
@@ -15,7 +15,7 @@
    - Secret：上一步复制的 SendKey
 4. 进入仓库的 `Actions` 页面，启用工作流，并手动运行一次 `Daily GitHub Trending` 验证推送。
 
-定时工作流使用 GitHub Actions 的 `Asia/Shanghai` 时区配置。GitHub 在任务高峰时可能延迟执行，因此 16:00 是计划时间，并非秒级准点保证。
+定时工作流使用 GitHub Actions 的 `Asia/Shanghai` 时区配置。GitHub 在任务高峰时可能延迟执行，因此 17:06 是计划时间，并非秒级准点保证。
 
 ## 本地验证
 
