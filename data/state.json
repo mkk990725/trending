@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "weekly": [
     {
       "name": "cathrynlavery/diagram-design",
@@ -24,9 +24,9 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
     },
     {
-      "name": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+      "name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes"
     },
     {
       "name": "diegosouzapw/OmniRoute",
