@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "weekly": [
     {
-      "name": "fmtlib/fmt",
-      "url": "https://github.com/fmtlib/fmt",
-      "description": "A modern formatting library"
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
     },
     {
       "name": "affaan-m/ECC",
@@ -12,9 +12,9 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+      "name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library"
     }
   ],
   "monthly": [
