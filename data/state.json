@@ -7,14 +7,14 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows"
     },
     {
-      "name": "mvschwarz/openrig",
-      "url": "https://github.com/mvschwarz/openrig",
-      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
-    },
-    {
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "name": "EpicGames/raddebugger",
+      "url": "https://github.com/EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger."
     }
   ],
   "monthly": [
