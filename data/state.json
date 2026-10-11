@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "weekly": [
     {
       "name": "boykopovar/AnyPS5",
@@ -7,14 +7,14 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows"
     },
     {
+      "name": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps."
+    },
+    {
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory."
-    },
-    {
-      "name": "EpicGames/raddebugger",
-      "url": "https://github.com/EpicGames/raddebugger",
-      "description": "A native, user-mode, multi-process, graphical debugger."
     }
   ],
   "monthly": [
