@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "weekly": [
     {
       "name": "morluto/rea",
@@ -7,17 +7,22 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
     },
     {
+      "name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+    },
+    {
       "name": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows"
-    },
-    {
-      "name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory."
     }
   ],
   "monthly": [
+    {
+      "name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
     {
       "name": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
@@ -27,11 +32,6 @@
       "name": "anthropics/financial-services",
       "url": "https://github.com/anthropics/financial-services",
       "description": "暂无项目简介"
-    },
-    {
-      "name": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns"
     }
   ]
 }
