@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "weekly": [
     {
       "name": "Nutlope/hallmark",
@@ -7,9 +7,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
     },
     {
-      "name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
     },
     {
       "name": "AgriciDaniel/claude-seo",
